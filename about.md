@@ -7,8 +7,8 @@ permalink: /about/
 * Lisp Fundamentalist
 * Keyboard Enthusiast
 * I Study Languages
-  - Languages := Natural Languages | Programming Languages
-  - Study := Learn | Research
+  - `Languages := Natural Languages | Programming Languages`
+  - `Study := Learn | Research`
 * 日本語勉強中
 * j'Apprends le français
 * Sto imparando l'italiano
