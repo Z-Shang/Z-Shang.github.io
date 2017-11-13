@@ -56,7 +56,7 @@ This applies the function / type constructor `<f>` to the argument.
 # Some Example
 - **Singleton**
 
-{% highlight clj %}
+```clojure
 (def singleton
     (-> Bool Type)
     (lambda (x)
@@ -66,12 +66,12 @@ This applies the function / type constructor `<f>` to the argument.
     (-> x:Bool singleton@x)
     (lambda (x)
         (if x 0 nil)))
-{% endhighlight %}
+```
 
 - **Refined**
 
-{% highlight clj %}
+```clojure
 (def nthVect
     (-> n:Nat vct:Vect@(m elem)^(< n m))
     ...)
-{% endhighlight %}
+```
