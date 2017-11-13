@@ -27,7 +27,6 @@ This prefix goes in front of a predicate, and keeps going only if the predicate 
 Similar to the previous one, this negates the return value of a predicate.
 
 - **To refine a type:**
-
 ```
 type^pred
 type^prop
@@ -56,7 +55,6 @@ This applies the function / type constructor `f` to the argument.
 
 # Some Example
 - **Singleton**
-
 ```clojure
 (def singleton
     (-> Bool Type)
@@ -70,7 +68,6 @@ This applies the function / type constructor `f` to the argument.
 ```
 
 - **Refined**
-
 ```clojure
 (def nthVect
     (-> n:Nat vct:Vect@(m elem)^(< n m))
