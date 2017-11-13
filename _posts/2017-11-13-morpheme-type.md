@@ -16,42 +16,43 @@ As you know from natural languages, we have three different morphemes here:
 ## Prefix
 - **To be satisfied:**
 ```
-!<pred>
+!pred
 ```
 This prefix goes in front of a predicate, and keeps going only if the predicate returns true.
 
 - **To negate:**
 ```
-~<pred>
+~pred
 ```
 Similar to the previous one, this negates the return value of a predicate.
 
 - **To refine a type:**
+
 ```
-<type>^<pred>
-<type>^<prop>
+type^pred
+type^prop
 ```
-In the former case, `<type>` is refined at term level, while in the latter case, `<type>` is refined at propositional level.
+In the former case, `type` is refined at term level, while in the latter case, `type` is refined at propositional level.
 
 ## Infix
 - **Has the type:**
 ```
-<symbol>:<type>
+symbol:type
 ```
-`<symbol>` has the type `<type>` in the current environment.
+`symbol` has the type `type` in the current environment.
 
 - **Composition:**
 ```
-<f>|<g>
+f|g
 ```
-This composites `<f>` and `<g>`, and gives `<f> \circ <g>`.
+This composites `f` and `g`, and gives `f \circ g`.
 
 ## Suffix
 - **To be applied to:**
 ```
-<f>@<arg>
+f@arg
 ```
-This applies the function / type constructor `<f>` to the argument.
+This applies the function / type constructor `f` to the argument.
 
 # Some Example
 - **Singleton**
