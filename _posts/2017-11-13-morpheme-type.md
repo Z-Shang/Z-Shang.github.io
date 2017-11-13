@@ -2,7 +2,7 @@
 layout: post
 title:  "A Morpheme Based Type Notation"
 date:   2017-11-13 01:19:00 -0700
-categories: plt, loli
+categories: loli
 ---
 
 # Why
