@@ -55,6 +55,7 @@ This applies the function / type constructor `f` to the argument.
 
 # Some Example
 - **Singleton**
+
 ```clojure
 (def singleton
     (-> Bool Type)
@@ -68,6 +69,7 @@ This applies the function / type constructor `f` to the argument.
 ```
 
 - **Refined**
+
 ```clojure
 (def nthVect
     (-> n:Nat vct:Vect@(m elem)^(< n m))
