@@ -1,0 +1,22 @@
+comments:
+  allowedFields: ["name", "email", "url", "message"]
+  allowedOrigins: ["localhost", "gilgamesh.me"]
+  branch: master
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+  format: "yaml"
+  moderation: false
+  name: "gilgamesh.me"
+  
+  notifications:
+    enabled: true
+
+  path: "_data/comments/{options.slug}"
+  filename: "entry{@timestamp}"
+  requiredFields: ["name", "email", "message"]
+  transforms:
+    email: md5
+
