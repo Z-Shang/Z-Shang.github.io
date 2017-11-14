@@ -1,0 +1,15 @@
+{% if subcomments == true %}<div class="comments">{{ comments }}</div>{% else %}
+<div class="ui threaded comments">
+    {% if comments contains "</div>" %}<h2 class="ui dividing header">Comments</h2>{% endif %}
+    {{ comments }}
+    <div class="ui tiny message" style="overflow:hidden">
+        <a class="add-comment ui primary labeled submit icon button" href="{{ site.git_repo }}{{ comment_url }}">
+          <i class="edit icon"></i> Add Comment
+        </a>
+
+        Comments on nourish.je are made via pull request. 
+        Replying takes you to GitHub where you can add your comment directly to the source code;
+        send a pull request to get it added to the live site.
+    </div>
+</div>
+{% endif %}

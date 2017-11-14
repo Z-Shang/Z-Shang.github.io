@@ -28,6 +28,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+github_comments:
+  repo: z-shang/z-shang.github.io
+  branch: comments
+  comment_template: comment.html
+  comments_template: comments.html
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
