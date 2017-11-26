@@ -15,4 +15,4 @@ permalink: /about/
 * Aš mokytis lietuvių kalbos
 * Ich lerne Deutsch
 * Я изучаю русский
-
+* <img src="https://static.fsf.org/nosvn/associate/crm/645521.png"/>
