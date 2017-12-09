@@ -26,13 +26,6 @@ This prefix goes in front of a predicate, and keeps going only if the predicate 
 ```
 Similar to the previous one, this negates the return value of a predicate.
 
-- **To refine a type:**
-```
-type^pred
-type^prop
-```
-In the former case, `type` is refined at term level, while in the latter case, `type` is refined at propositional level.
-
 ## Infix
 - **Has the type:**
 ```
@@ -47,6 +40,13 @@ f|g
 This composites `f` and `g`, and gives `f \circ g`.
 
 ## Suffix
+- **To refine a type:**
+```
+type^pred
+type^prop
+```
+In the former case, `type` is refined at term level, while in the latter case, `type` is refined at propositional level.
+
 - **To be applied to:**
 ```
 f@arg
