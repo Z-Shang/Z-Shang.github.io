@@ -9,7 +9,7 @@ This is my study note of Wheelock's Latin (7th edition).
 
 For typing convention, I'll use ~ to indicate a long vowel, e.g. fortu~nam = fortūnam
 
-Bonam fortunam (good luck)
+Bonam fortu~nam (good luck)
 
 In Latin, the inflection of a verb (verbum) is decided with the following characteristics:
 
