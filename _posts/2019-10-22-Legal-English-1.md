@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Trial on Purely Rule-Based Legal English Processing - 1"
-date:   2017-10-22 01:24 +1000
+date:   2019-10-22 01:24 +1000
 categories: work
 ---
 
