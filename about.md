@@ -4,6 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
+* Master Student @ UNSW
+* Working with [Cogent](https://ts.data61.csiro.au/projects/TS/cogent.pml)
 * Lisp Fundamentalist
 * Keyboard Enthusiast
 * I Study Languages
