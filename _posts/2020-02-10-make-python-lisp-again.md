@@ -9,7 +9,7 @@ categories: work
 
 Once upon a time, there was a voice claims that "Python is the new Lisp", which is obviously, not true. With the rapid developement of the buzz-word industry, Python has gained far more attention than its surface language deserves. While having an OK-ish VM, Python the language is recklessly wasting its natural advantage. 
 
-I, a Lisp programmer like you can find in any neighborhood, tried to escape from the stupidity of Python while can still write codes that runs in my working envrionment, have decided to write a simple compiler that compiles a small Lisp into Python's bytecode, so that I can write whatever I want to and produce a binary file that my collages can use.
+I, a Lisp programmer like you can find in any neighborhood, tried to escape from the stupidity of Python while can still write codes that runs in my working envrionment, have decided to write a simple compiler that compiles a small Lisp into Python's bytecode, so that I can write whatever I want to and produce a binary file that my colleagues can use.
 
 
 # Naming
