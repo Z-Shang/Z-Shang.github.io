@@ -92,10 +92,10 @@ The pipeline:
 Firstly, clean the bytecode to keep only the instructions we care, such as `LOAD_GLOBAL`, `FUNCTION_CALL`.
 
 Then I can parse the bytecode, and get the raw syntax tree, e.g.:
-for
 ```
 opname(arg_1 = val_1, arg_2 = val_2)
 ```
+will be compiled into:
 ```
 node = ('op',
   [ LOAD_GLOBAL(opname),
@@ -116,7 +116,7 @@ class OP(AST):
 ```
 I initially thought about constructing the dictionary from the bytecode values manually, but then I realized that there is an instruction called `BUILD_CONST_KEY_MAP`.
 
-The following is then simple and nature:
+The following is then simple and natural:
 ```
 name = node[1][0]
 rest = node[1][1:]
