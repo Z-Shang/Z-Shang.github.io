@@ -146,6 +146,12 @@ END_FINALLY
 ```
 I don't think that I need to explain how to parse something like this.
 
+
+## Runtime Computations
+Non-constant values will be deferred to the runtime.
+To achieve this, instead of generating the result dict at compile time, I made the codegen to generate bytecode for the dicts.
+Therefore, the result will be a list of bytecodes, and set the compild code object to the given function, then we are done.
+
 ## What Next
 Maybe I can get some LISP stuffs into Python as EDSL.
 
