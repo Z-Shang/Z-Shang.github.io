@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-* Developer @ WiseTech Global
+* Developer @ [Immutable](https://www.immutable.com/)
 * Worked with [Cogent](https://ts.data61.csiro.au/projects/TS/cogent.pml)
 * Lisp Fundamentalist
 * Keyboard Enthusiast
