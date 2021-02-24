@@ -4,5 +4,3 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-
-<script data-ad-client="ca-pub-7839824351646295" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
