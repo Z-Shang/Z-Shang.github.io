@@ -4,9 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
+* She / Her
 * Developer @ [Immutable](https://www.immutable.com/)
+* Working on [Granule](https://granule-project.github.io/)
 * Worked with [Cogent](https://ts.data61.csiro.au/projects/TS/cogent.pml)
-* Lisp Fundamentalist
+* Lisp Reformist
 * Keyboard Enthusiast
 * I Study Languages
   - `Languages := Natural Languages | Programming Languages`
