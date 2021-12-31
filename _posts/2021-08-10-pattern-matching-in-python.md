@@ -12,7 +12,7 @@ If you are a fan of [PEP 622](https://www.python.org/dev/peps/pep-0622/), you ca
 As we all know that, [PEP 622](https://www.python.org/dev/peps/pep-0622/) has introduced the so-called "Structural Pattern Matching", and not surprisingly, they messed up scoping again.
 
 ## Why
-Recently while doing some of my personal stuffs, I found that some little pattern matching could help a lot, and didn't want to swalow the sh*t of Mr. BDFL.
+Recently while doing some of my personal stuffs, I found that some little pattern matching could help a lot, and didn't want to swallow the sh*t of Mr. BDFL.
 
 Coincidentally, I've just finished reading the paper *Compiling Pattern Matching* by Lennart Augustsson (which is a quite interesting paper that one can enojoy for a weekend), then my fingers were whispering to me again: "Bloody hell, you gotta re-invent this wheel".
 
