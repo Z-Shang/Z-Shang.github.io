@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 * She / Her
-* Developer @ [Immutable](https://www.immutable.com/)
+* Developer @ [MongoDB](https://www.mongodb.com/)
 * Working on [Granule](https://granule-project.github.io/)
 * Worked with [Cogent](https://ts.data61.csiro.au/projects/TS/cogent.pml)
 * Lisp Reformist
