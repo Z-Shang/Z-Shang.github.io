@@ -91,7 +91,7 @@ If you have ever played with industrial functional programming languages such as
 
 You can read more about aggregation pipeline at [here](https://www.mongodb.com/docs/manual/core/aggregation-pipeline/)
 
-## `let`
+## Let Binding
 
 In such pipelines, it will often be useful to have some variables across the entire pipeline.
 This is currently impossible in MongoDB's aggregation pipeline.
@@ -125,7 +125,7 @@ coll_foobar.aggregate([
 
 Which gives you the same result as above sans fields `foo` and `bar`.
 
-## `quote` And `eval`
+## Quote And Eval
 
 For those who does not know Lisp, there are a pair of primitive operations in Lisp languages:
 `quote` and `eval`.
@@ -171,7 +171,7 @@ I've even wrapped this into a stage `$cond`, you can then do something like:
 }
 ```
 
-## `subst`
+## Substituting Variables in Expression
 
 Now we have a let binding, we have the ability to create a pipeline from array data, what's next?
 
