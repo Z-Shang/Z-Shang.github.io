@@ -6,7 +6,7 @@ permalink: /about/
 
 * She / Her
 * Developer @ [MongoDB](https://www.mongodb.com/)
-* Working on [Granule](https://granule-project.github.io/)
+* Worked on [Granule](https://granule-project.github.io/)
 * Worked with [Cogent](https://ts.data61.csiro.au/projects/TS/cogent.pml)
 * Lisp Reformist
 * Keyboard Enthusiast
@@ -15,7 +15,7 @@ permalink: /about/
   - `Study := Learn | Research`
 * 日本語勉強中
 * j'Apprends le français
-* Sto imparando l'italiano
+* Studio italiano
 * Aš mokytis lietuvių kalbos
 * Ich lerne Deutsch
 * Я изучаю русский
