@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 * She / Her
-* Developer @ [MongoDB](https://www.mongodb.com/)
+* Software Engineer @ [Macquarie Group](https://www.macquarie.com/)
 * Worked on [Granule](https://granule-project.github.io/)
 * Worked with [Cogent](https://ts.data61.csiro.au/projects/TS/cogent.pml)
 * Lisp Reformist
